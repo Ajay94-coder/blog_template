@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  background-color: #333;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  /* background-color: red;*/
+  font-family: var(--font1);
+  margin-top: 23px;
+}
+.nav-left {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+.nav-left span {
+  font-size:30px;
+  margin-top: 8px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px 8px;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 25px;
+}
+
+.nav-left ul li:nth-child(1):hover {
+  background-color: darkorange;
+  box-shadow: 0 0 50px darkorange;
+}
+.nav-left ul li:nth-child(2):hover {
+  background-color: greenyellow;
+  box-shadow: 0 0 50px greenyellow;
+}
+.nav-left ul li:nth-child(3):hover {
+  background-color: tomato;
+  box-shadow: 0 0 50px tomato;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 77px;
+}
+.nav-right {
+}
+.content-left {
+  font-family: var(--font1);
+  width: 70%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+.content-right {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid black;
+  border-radius: 200px;
+}
+.content {
+  height: 395px;
+  background-image: url("/background-img.png");
+  border-radius: 55px;
+  background-size: 100% 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 10px;
+}
+.footer {
+  height: 50px;
+  background-color:cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+.home-articles {
+  min-height: 400px;
+  /* background-color: red; */
+  color: white;
+  font-family: var(--font1);
+  position: relative;
+}
+.year-box{
+  position: absolute;
+  width: 225px;
+  height: 250px;
+  right: 150px;
+  top: 100px;
+  /* background-color: red; */
+}
+.home-article {
+  display: flex;
+  padding-top: 15px;
+}
+.home-article img {
+  /* height: 10%; */
+  width: 25%;
+}
+.home-article-content {
+  margin: 25px;
+}
+.home-article-content a{
+  text-decoration: none;
+  color:darkmagenta
+}

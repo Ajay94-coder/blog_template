@@ -1,0 +1,30 @@
+.contact-content{
+    height: 395px;
+    background-image: url("https://html.sammy-codes.com/images/background.jpg");
+    border-radius: 55px;
+    background-size: 100% 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    max-width: 80vw;
+    height: 50vh;
+}
+
+.form-box input ,textarea{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    width: 20vw;
+}
+.btn{
+    margin-top: 15px;
+}
+.pos{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
